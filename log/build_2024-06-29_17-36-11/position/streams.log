@@ -1,0 +1,19 @@
+[0.478s] Invoking command in '/home/glack/Documents/project/Tjb/build/position': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/position/build --no-deps symlink_data
+[0.587s] running develop
+[0.587s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.587s]   warnings.warn(
+[0.646s] running egg_info
+[0.646s] writing position.egg-info/PKG-INFO
+[0.646s] writing dependency_links to position.egg-info/dependency_links.txt
+[0.646s] writing entry points to position.egg-info/entry_points.txt
+[0.646s] writing requirements to position.egg-info/requires.txt
+[0.646s] writing top-level names to position.egg-info/top_level.txt
+[0.647s] reading manifest file 'position.egg-info/SOURCES.txt'
+[0.647s] writing manifest file 'position.egg-info/SOURCES.txt'
+[0.648s] running build_ext
+[0.648s] Creating /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position.egg-link (link to .)
+[0.648s] Installing position_node script to /home/glack/Documents/project/Tjb/install/position/lib/position
+[0.648s] 
+[0.649s] Installed /home/glack/Documents/project/Tjb/build/position
+[0.649s] running symlink_data
+[0.662s] Invoked command in '/home/glack/Documents/project/Tjb/build/position' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/position/build --no-deps symlink_data

@@ -1,0 +1,142 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/glack/Documents/project/Tjb']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/glack/Documents/project/Tjb'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7119ad828400>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7119ad934550>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7119ad934550>>)
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.136s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/glack/Documents/project/Tjb'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/build) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/build) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/build) ignored
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/install) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/install) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/install) ignored
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/launch/__pycache__) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/log) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/log) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/log) ignored
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/qtui) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/position) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package '/home/glack/Documents/project/Tjb/src/position' with type 'ros.ament_python' and name 'position'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/pyqtui) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package '/home/glack/Documents/project/Tjb/src/pyqtui' with type 'ros.ament_python' and name 'pyqtui'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/rgbc) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package '/home/glack/Documents/project/Tjb/src/rgbc' with type 'ros.ament_python' and name 'rgbc'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/src/tof) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package '/home/glack/Documents/project/Tjb/src/tof' with type 'ros.ament_cmake' and name 'tof'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/glack/Documents/project/Tjb/团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

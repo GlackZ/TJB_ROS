@@ -1,0 +1,28 @@
+[0.520s] Invoking command in '/home/glack/Documents/project/Tjb/build/position': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/position/build --no-deps symlink_data
+[0.629s] running develop
+[0.629s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.629s]   warnings.warn(
+[0.688s] running egg_info
+[0.688s] creating position.egg-info
+[0.688s] writing position.egg-info/PKG-INFO
+[0.689s] writing dependency_links to position.egg-info/dependency_links.txt
+[0.689s] writing entry points to position.egg-info/entry_points.txt
+[0.689s] writing requirements to position.egg-info/requires.txt
+[0.689s] writing top-level names to position.egg-info/top_level.txt
+[0.689s] writing manifest file 'position.egg-info/SOURCES.txt'
+[0.690s] reading manifest file 'position.egg-info/SOURCES.txt'
+[0.690s] writing manifest file 'position.egg-info/SOURCES.txt'
+[0.690s] running build_ext
+[0.690s] Creating /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position.egg-link (link to .)
+[0.691s] Installing position_node script to /home/glack/Documents/project/Tjb/install/position/lib/position
+[0.691s] 
+[0.691s] Installed /home/glack/Documents/project/Tjb/build/position
+[0.691s] running symlink_data
+[0.691s] creating /home/glack/Documents/project/Tjb/install/position/share/ament_index
+[0.691s] creating /home/glack/Documents/project/Tjb/install/position/share/ament_index/resource_index
+[0.691s] creating /home/glack/Documents/project/Tjb/install/position/share/ament_index/resource_index/packages
+[0.691s] symbolically linking /home/glack/Documents/project/Tjb/build/position/resource/position -> /home/glack/Documents/project/Tjb/install/position/share/ament_index/resource_index/packages
+[0.691s] symbolically linking /home/glack/Documents/project/Tjb/build/position/package.xml -> /home/glack/Documents/project/Tjb/install/position/share/position
+[0.691s] creating /home/glack/Documents/project/Tjb/install/position/share/position/launch
+[0.691s] symbolically linking /home/glack/Documents/project/Tjb/build/position/launch/position_node_launch.py -> /home/glack/Documents/project/Tjb/install/position/share/position/launch
+[0.705s] Invoked command in '/home/glack/Documents/project/Tjb/build/position' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/position/build --no-deps symlink_data

@@ -1,0 +1,24 @@
+[0.259s] Invoking command in '/home/glack/Documents/project/Tjb/src/rgbc': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/rgbc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rgbc build --build-base /home/glack/Documents/project/Tjb/build/rgbc/build install --record /home/glack/Documents/project/Tjb/build/rgbc/install.log --single-version-externally-managed install_data
+[0.358s] running egg_info
+[0.358s] writing ../../build/rgbc/rgbc.egg-info/PKG-INFO
+[0.358s] writing dependency_links to ../../build/rgbc/rgbc.egg-info/dependency_links.txt
+[0.358s] writing entry points to ../../build/rgbc/rgbc.egg-info/entry_points.txt
+[0.358s] writing requirements to ../../build/rgbc/rgbc.egg-info/requires.txt
+[0.358s] writing top-level names to ../../build/rgbc/rgbc.egg-info/top_level.txt
+[0.359s] reading manifest file '../../build/rgbc/rgbc.egg-info/SOURCES.txt'
+[0.360s] writing manifest file '../../build/rgbc/rgbc.egg-info/SOURCES.txt'
+[0.360s] running build
+[0.360s] running build_py
+[0.360s] copying rgbc/rgbc_node.py -> /home/glack/Documents/project/Tjb/build/rgbc/build/lib/rgbc
+[0.360s] running install
+[0.360s] running install_lib
+[0.360s] copying /home/glack/Documents/project/Tjb/build/rgbc/build/lib/rgbc/rgbc_node.py -> /home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages/rgbc
+[0.360s] byte-compiling /home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages/rgbc/rgbc_node.py to rgbc_node.cpython-310.pyc
+[0.361s] running install_data
+[0.361s] running install_egg_info
+[0.362s] removing '/home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages/rgbc-0.0.0-py3.10.egg-info' (and everything under it)
+[0.362s] Copying ../../build/rgbc/rgbc.egg-info to /home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages/rgbc-0.0.0-py3.10.egg-info
+[0.362s] running install_scripts
+[0.372s] Installing rgbc_node script to /home/glack/Documents/project/Tjb/install/rgbc/lib/rgbc
+[0.372s] writing list of installed files to '/home/glack/Documents/project/Tjb/build/rgbc/install.log'
+[0.382s] Invoked command in '/home/glack/Documents/project/Tjb/src/rgbc' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/rgbc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rgbc build --build-base /home/glack/Documents/project/Tjb/build/rgbc/build install --record /home/glack/Documents/project/Tjb/build/rgbc/install.log --single-version-externally-managed install_data

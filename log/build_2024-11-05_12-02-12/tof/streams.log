@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/glack/Documents/project/Tjb/build/tof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --build /home/glack/Documents/project/Tjb/build/tof -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.049s] [ 20%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/frame_handle.cc.o[0m
+[0.209s] In file included from [01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:8[m[K:
+[0.209s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_struct.h:36:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.209s]    36 |   uint8_t [01;35m[Kpayload[m[K[];
+[0.209s]       |           [01;35m[K^~~~~~~[m[K
+[0.283s] [ 40%] [32m[1mLinking CXX executable publisher[0m
+[0.527s] [100%] Built target publisher
+[0.534s] Invoked command in '/home/glack/Documents/project/Tjb/build/tof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --build /home/glack/Documents/project/Tjb/build/tof -- -j20 -l20
+[0.559s] Invoking command in '/home/glack/Documents/project/Tjb/build/tof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --install /home/glack/Documents/project/Tjb/build/tof
+[0.563s] -- Install configuration: "Debug"
+[0.563s] -- Execute custom install script
+[0.563s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/lib/tof/publisher
+[0.563s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/__pycache__/tof_node_launch.cpython-310.pyc
+[0.563s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/tof_node_launch.py
+[0.563s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/package_run_dependencies/tof
+[0.563s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/parent_prefix_path/tof
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.sh
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.dsv
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.sh
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.dsv
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.bash
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.sh
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.zsh
+[0.564s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.dsv
+[0.564s] -- Symlinking: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.dsv
+[0.570s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/packages/tof
+[0.570s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig.cmake
+[0.570s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig-version.cmake
+[0.570s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.xml
+[0.571s] Invoked command in '/home/glack/Documents/project/Tjb/build/tof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --install /home/glack/Documents/project/Tjb/build/tof

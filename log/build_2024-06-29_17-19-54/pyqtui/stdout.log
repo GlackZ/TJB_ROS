@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating pyqtui.egg-info
+writing pyqtui.egg-info/PKG-INFO
+writing dependency_links to pyqtui.egg-info/dependency_links.txt
+writing entry points to pyqtui.egg-info/entry_points.txt
+writing requirements to pyqtui.egg-info/requires.txt
+writing top-level names to pyqtui.egg-info/top_level.txt
+writing manifest file 'pyqtui.egg-info/SOURCES.txt'
+reading manifest file 'pyqtui.egg-info/SOURCES.txt'
+writing manifest file 'pyqtui.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui.egg-link (link to .)
+Installing pyqtui_node script to /home/glack/Documents/project/Tjb/install/pyqtui/lib/pyqtui
+
+Installed /home/glack/Documents/project/Tjb/build/pyqtui
+running symlink_data
+creating /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index
+creating /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index/resource_index
+creating /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index/resource_index/packages
+symbolically linking /home/glack/Documents/project/Tjb/build/pyqtui/resource/pyqtui -> /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index/resource_index/packages
+symbolically linking /home/glack/Documents/project/Tjb/build/pyqtui/package.xml -> /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui
+creating /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui/launch
+symbolically linking /home/glack/Documents/project/Tjb/build/pyqtui/launch/pyqtui_node_launch.py -> /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui/launch

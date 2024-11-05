@@ -1,0 +1,3 @@
+[console_scripts]
+pyqtui_node = pyqtui.qt_main:main
+

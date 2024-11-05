@@ -1,0 +1,3 @@
+[console_scripts]
+position_node = position.position_node:main
+

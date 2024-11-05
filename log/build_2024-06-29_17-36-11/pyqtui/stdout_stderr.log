@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing pyqtui.egg-info/PKG-INFO
+writing dependency_links to pyqtui.egg-info/dependency_links.txt
+writing entry points to pyqtui.egg-info/entry_points.txt
+writing requirements to pyqtui.egg-info/requires.txt
+writing top-level names to pyqtui.egg-info/top_level.txt
+reading manifest file 'pyqtui.egg-info/SOURCES.txt'
+writing manifest file 'pyqtui.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui.egg-link (link to .)
+Installing pyqtui_node script to /home/glack/Documents/project/Tjb/install/pyqtui/lib/pyqtui
+
+Installed /home/glack/Documents/project/Tjb/build/pyqtui
+running symlink_data

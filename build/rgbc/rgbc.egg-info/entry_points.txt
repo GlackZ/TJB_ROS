@@ -1,0 +1,3 @@
+[console_scripts]
+rgbc_node = rgbc.rgbc_node:main
+

@@ -1,0 +1,67 @@
+[0.005s] Invoking command in '/home/glack/Documents/project/Tjb/build/tof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --build /home/glack/Documents/project/Tjb/build/tof -- -j20 -l20
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.070s] [ 20%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/frame_handle.cc.o[0m
+[0.070s] [ 40%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/serial.cc.o[0m
+[0.071s] [ 80%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/main.cc.o[0m
+[0.071s] [ 80%] [32mBuilding C object CMakeFiles/publisher.dir/src/cJSON.c.o[0m
+[0.224s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:[m[K In member function ‘[01m[Kconst std::vector<unsigned char> Serial::readBytes() const[m[K’:
+[0.224s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:62:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.224s]    62 |   int [01;35m[Ka[m[K = *(int *)this->priv;
+[0.224s]       |       [01;35m[K^[m[K
+[0.224s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:[m[K In member function ‘[01m[Kvoid Serial::writeBytes(const std::vector<unsigned char>&) const[m[K’:
+[0.224s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:74:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.224s]    74 |   int [01;35m[Ka[m[K = *vec.cbegin();
+[0.224s]       |       [01;35m[K^[m[K
+[0.224s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:75:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.224s]    75 |   int [01;35m[Kb[m[K = *(vec.cbegin()+1);
+[0.224s]       |       [01;35m[K^[m[K
+[0.224s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:76:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.224s]    76 |   int [01;35m[Kc[m[K = *(vec.cbegin()+2);
+[0.224s]       |       [01;35m[K^[m[K
+[0.224s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:77:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.225s]    77 |   auto [01;35m[Kd[m[K = vec.cbegin().base();
+[0.225s]       |        [01;35m[K^[m[K
+[0.231s] In file included from [01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:8[m[K:
+[0.231s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_struct.h:36:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.232s]    36 |   uint8_t [01;35m[Kpayload[m[K[];
+[0.232s]       |           [01;35m[K^~~~~~~[m[K
+[1.686s] In file included from [01m[K/home/glack/Documents/project/Tjb/src/tof/src/main.cc:15[m[K:
+[1.687s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_struct.h:36:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.687s]    36 |   uint8_t [01;35m[Kpayload[m[K[];
+[1.687s]       |           [01;35m[K^~~~~~~[m[K
+[1.700s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/main.cc:[m[K In constructor ‘[01m[KSipeedTOF_MSA010_Publisher::SipeedTOF_MSA010_Publisher()[m[K’:
+[1.700s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/main.cc:58:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.700s]    58 |     uint32_t [01;35m[Ktmp[m[K;
+[1.700s]       |              [01;35m[K^~~[m[K
+[1.702s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/main.cc:[m[K In member function ‘[01m[Kvoid SipeedTOF_MSA010_Publisher::timer_callback()[m[K’:
+[1.702s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/main.cc:162:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.703s]   162 |     for (int j = 0; [01;35m[Kj < pcmsg.height[m[K; j++)
+[1.703s]       |                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[1.703s] [01m[K/home/glack/Documents/project/Tjb/src/tof/src/main.cc:163:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.703s]   163 |       for (int i = 0; [01;35m[Ki < pcmsg.width[m[K; i++) {
+[1.703s]       |                       [01;35m[K~~^~~~~~~~~~~~~[m[K
+[3.352s] [100%] [32m[1mLinking CXX executable publisher[0m
+[3.625s] [100%] Built target publisher
+[3.633s] Invoked command in '/home/glack/Documents/project/Tjb/build/tof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --build /home/glack/Documents/project/Tjb/build/tof -- -j20 -l20
+[3.663s] Invoking command in '/home/glack/Documents/project/Tjb/build/tof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --install /home/glack/Documents/project/Tjb/build/tof
+[3.669s] -- Install configuration: "Debug"
+[3.670s] -- Execute custom install script
+[3.671s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/lib/tof/publisher
+[3.671s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/__pycache__/tof_node_launch.cpython-310.pyc
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/tof_node_launch.py
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/package_run_dependencies/tof
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/parent_prefix_path/tof
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.sh
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.dsv
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.sh
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.dsv
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.bash
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.sh
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.zsh
+[3.672s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.dsv
+[3.672s] -- Symlinking: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.dsv
+[3.677s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/packages/tof
+[3.677s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig.cmake
+[3.677s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig-version.cmake
+[3.678s] -- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.xml
+[3.679s] Invoked command in '/home/glack/Documents/project/Tjb/build/tof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --install /home/glack/Documents/project/Tjb/build/tof

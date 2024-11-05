@@ -1,0 +1,19 @@
+[0.477s] Invoking command in '/home/glack/Documents/project/Tjb/build/rgbc': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/rgbc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/rgbc/build --no-deps symlink_data
+[0.584s] running develop
+[0.584s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.584s]   warnings.warn(
+[0.643s] running egg_info
+[0.643s] writing rgbc.egg-info/PKG-INFO
+[0.643s] writing dependency_links to rgbc.egg-info/dependency_links.txt
+[0.643s] writing entry points to rgbc.egg-info/entry_points.txt
+[0.643s] writing requirements to rgbc.egg-info/requires.txt
+[0.643s] writing top-level names to rgbc.egg-info/top_level.txt
+[0.644s] reading manifest file 'rgbc.egg-info/SOURCES.txt'
+[0.644s] writing manifest file 'rgbc.egg-info/SOURCES.txt'
+[0.645s] running build_ext
+[0.645s] Creating /home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages/rgbc.egg-link (link to .)
+[0.645s] Installing rgbc_node script to /home/glack/Documents/project/Tjb/install/rgbc/lib/rgbc
+[0.645s] 
+[0.645s] Installed /home/glack/Documents/project/Tjb/build/rgbc
+[0.645s] running symlink_data
+[0.664s] Invoked command in '/home/glack/Documents/project/Tjb/build/rgbc' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/rgbc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/rgbc/build --no-deps symlink_data

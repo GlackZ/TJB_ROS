@@ -1,0 +1,24 @@
+[0.486s] Invoking command in '/home/glack/Documents/project/Tjb/src/pyqtui': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/pyqtui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pyqtui build --build-base /home/glack/Documents/project/Tjb/build/pyqtui/build install --record /home/glack/Documents/project/Tjb/build/pyqtui/install.log --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.596s] writing ../../build/pyqtui/pyqtui.egg-info/PKG-INFO
+[0.596s] writing dependency_links to ../../build/pyqtui/pyqtui.egg-info/dependency_links.txt
+[0.596s] writing entry points to ../../build/pyqtui/pyqtui.egg-info/entry_points.txt
+[0.596s] writing requirements to ../../build/pyqtui/pyqtui.egg-info/requires.txt
+[0.596s] writing top-level names to ../../build/pyqtui/pyqtui.egg-info/top_level.txt
+[0.597s] reading manifest file '../../build/pyqtui/pyqtui.egg-info/SOURCES.txt'
+[0.597s] writing manifest file '../../build/pyqtui/pyqtui.egg-info/SOURCES.txt'
+[0.597s] running build
+[0.598s] running build_py
+[0.598s] copying pyqtui/mainwindow_ui.py -> /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+[0.598s] running install
+[0.598s] running install_lib
+[0.598s] copying /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui/mainwindow_ui.py -> /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+[0.598s] byte-compiling /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui/mainwindow_ui.py to mainwindow_ui.cpython-310.pyc
+[0.599s] running install_data
+[0.599s] running install_egg_info
+[0.600s] removing '/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui-0.0.0-py3.10.egg-info' (and everything under it)
+[0.600s] Copying ../../build/pyqtui/pyqtui.egg-info to /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui-0.0.0-py3.10.egg-info
+[0.600s] running install_scripts
+[0.611s] Installing pyqtui_node script to /home/glack/Documents/project/Tjb/install/pyqtui/lib/pyqtui
+[0.611s] writing list of installed files to '/home/glack/Documents/project/Tjb/build/pyqtui/install.log'
+[0.622s] Invoked command in '/home/glack/Documents/project/Tjb/src/pyqtui' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/pyqtui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pyqtui build --build-base /home/glack/Documents/project/Tjb/build/pyqtui/build install --record /home/glack/Documents/project/Tjb/build/pyqtui/install.log --single-version-externally-managed install_data

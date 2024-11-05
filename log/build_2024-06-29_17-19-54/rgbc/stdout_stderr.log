@@ -1,0 +1,26 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating rgbc.egg-info
+writing rgbc.egg-info/PKG-INFO
+writing dependency_links to rgbc.egg-info/dependency_links.txt
+writing entry points to rgbc.egg-info/entry_points.txt
+writing requirements to rgbc.egg-info/requires.txt
+writing top-level names to rgbc.egg-info/top_level.txt
+writing manifest file 'rgbc.egg-info/SOURCES.txt'
+reading manifest file 'rgbc.egg-info/SOURCES.txt'
+writing manifest file 'rgbc.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/glack/Documents/project/Tjb/install/rgbc/lib/python3.10/site-packages/rgbc.egg-link (link to .)
+Installing rgbc_node script to /home/glack/Documents/project/Tjb/install/rgbc/lib/rgbc
+
+Installed /home/glack/Documents/project/Tjb/build/rgbc
+running symlink_data
+creating /home/glack/Documents/project/Tjb/install/rgbc/share/ament_index
+creating /home/glack/Documents/project/Tjb/install/rgbc/share/ament_index/resource_index
+creating /home/glack/Documents/project/Tjb/install/rgbc/share/ament_index/resource_index/packages
+symbolically linking /home/glack/Documents/project/Tjb/build/rgbc/resource/rgbc -> /home/glack/Documents/project/Tjb/install/rgbc/share/ament_index/resource_index/packages
+symbolically linking /home/glack/Documents/project/Tjb/build/rgbc/package.xml -> /home/glack/Documents/project/Tjb/install/rgbc/share/rgbc
+creating /home/glack/Documents/project/Tjb/install/rgbc/share/rgbc/launch
+symbolically linking /home/glack/Documents/project/Tjb/build/rgbc/launch/rgbc_node_launch.py -> /home/glack/Documents/project/Tjb/install/rgbc/share/rgbc/launch

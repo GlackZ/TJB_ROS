@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rgbc/rgbc.egg-info/PKG-INFO
+../../build/rgbc/rgbc.egg-info/SOURCES.txt
+../../build/rgbc/rgbc.egg-info/dependency_links.txt
+../../build/rgbc/rgbc.egg-info/entry_points.txt
+../../build/rgbc/rgbc.egg-info/requires.txt
+../../build/rgbc/rgbc.egg-info/top_level.txt
+../../build/rgbc/rgbc.egg-info/zip-safe
+launch/rgbc_node_launch.py
+resource/rgbc
+rgbc/__init__.py
+rgbc/rgbc_node.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

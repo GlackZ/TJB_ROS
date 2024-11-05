@@ -1,0 +1,19 @@
+[0.476s] Invoking command in '/home/glack/Documents/project/Tjb/build/pyqtui': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/pyqtui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/pyqtui/build --no-deps symlink_data
+[0.584s] running develop
+[0.584s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.584s]   warnings.warn(
+[0.644s] running egg_info
+[0.644s] writing pyqtui.egg-info/PKG-INFO
+[0.644s] writing dependency_links to pyqtui.egg-info/dependency_links.txt
+[0.644s] writing entry points to pyqtui.egg-info/entry_points.txt
+[0.644s] writing requirements to pyqtui.egg-info/requires.txt
+[0.644s] writing top-level names to pyqtui.egg-info/top_level.txt
+[0.645s] reading manifest file 'pyqtui.egg-info/SOURCES.txt'
+[0.645s] writing manifest file 'pyqtui.egg-info/SOURCES.txt'
+[0.646s] running build_ext
+[0.646s] Creating /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui.egg-link (link to .)
+[0.646s] Installing pyqtui_node script to /home/glack/Documents/project/Tjb/install/pyqtui/lib/pyqtui
+[0.646s] 
+[0.646s] Installed /home/glack/Documents/project/Tjb/build/pyqtui
+[0.647s] running symlink_data
+[0.663s] Invoked command in '/home/glack/Documents/project/Tjb/build/pyqtui' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/pyqtui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/pyqtui/build --no-deps symlink_data

@@ -1,0 +1,28 @@
+[0.507s] Invoking command in '/home/glack/Documents/project/Tjb/build/pyqtui': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/pyqtui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/pyqtui/build --no-deps symlink_data
+[0.617s] running develop
+[0.618s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.618s]   warnings.warn(
+[0.686s] running egg_info
+[0.686s] creating pyqtui.egg-info
+[0.686s] writing pyqtui.egg-info/PKG-INFO
+[0.686s] writing dependency_links to pyqtui.egg-info/dependency_links.txt
+[0.686s] writing entry points to pyqtui.egg-info/entry_points.txt
+[0.687s] writing requirements to pyqtui.egg-info/requires.txt
+[0.687s] writing top-level names to pyqtui.egg-info/top_level.txt
+[0.687s] writing manifest file 'pyqtui.egg-info/SOURCES.txt'
+[0.687s] reading manifest file 'pyqtui.egg-info/SOURCES.txt'
+[0.687s] writing manifest file 'pyqtui.egg-info/SOURCES.txt'
+[0.688s] running build_ext
+[0.688s] Creating /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui.egg-link (link to .)
+[0.688s] Installing pyqtui_node script to /home/glack/Documents/project/Tjb/install/pyqtui/lib/pyqtui
+[0.688s] 
+[0.688s] Installed /home/glack/Documents/project/Tjb/build/pyqtui
+[0.688s] running symlink_data
+[0.688s] creating /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index
+[0.688s] creating /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index/resource_index
+[0.688s] creating /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index/resource_index/packages
+[0.689s] symbolically linking /home/glack/Documents/project/Tjb/build/pyqtui/resource/pyqtui -> /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index/resource_index/packages
+[0.689s] symbolically linking /home/glack/Documents/project/Tjb/build/pyqtui/package.xml -> /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui
+[0.689s] creating /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui/launch
+[0.689s] symbolically linking /home/glack/Documents/project/Tjb/build/pyqtui/launch/pyqtui_node_launch.py -> /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui/launch
+[0.709s] Invoked command in '/home/glack/Documents/project/Tjb/build/pyqtui' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/pyqtui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/glack/Documents/project/Tjb/build/pyqtui/build --no-deps symlink_data

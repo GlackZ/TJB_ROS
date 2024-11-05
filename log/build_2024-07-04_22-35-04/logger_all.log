@@ -1,0 +1,230 @@
+[0.047s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tof']
+[0.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tof'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ace03cefbe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ace03c3c550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ace03c3c550>>)
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.114s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/glack/Documents/project/Tjb'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(qtui) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/position) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/position' with type 'ros.ament_python' and name 'position'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyqtui) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pyqtui' with type 'ros.ament_python' and name 'pyqtui'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbc) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rgbc' with type 'ros.ament_python' and name 'rgbc'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/tof) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tof' with type 'ros.ament_cmake' and name 'tof'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(团中央第十九届挑战杯——2024 年度“揭榜挂帅”专项赛文档) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.135s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'position' in 'src/position'
+[0.135s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pyqtui' in 'src/pyqtui'
+[0.135s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rgbc' in 'src/rgbc'
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/glack/Documents/project/Tjb/install
+[0.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'tof' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'tof' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glack/Documents/project/Tjb/build/tof', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glack/Documents/project/Tjb/install/tof', 'merge_install': False, 'path': '/home/glack/Documents/project/Tjb/src/tof', 'symlink_install': False, 'test_result_base': None}
+[0.159s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.159s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/glack/Documents/project/Tjb/src/tof' with build type 'ament_cmake'
+[0.159s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/glack/Documents/project/Tjb/src/tof'
+[0.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glack/Documents/project/Tjb/build/tof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --build /home/glack/Documents/project/Tjb/build/tof -- -j20 -l20
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glack/Documents/project/Tjb/build/tof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --build /home/glack/Documents/project/Tjb/build/tof -- -j20 -l20
+[0.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glack/Documents/project/Tjb/build/tof': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --install /home/glack/Documents/project/Tjb/build/tof
+[0.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tof)
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glack/Documents/project/Tjb/build/tof' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/glack/Documents/project/Tjb/install/rgbc:/home/glack/Documents/project/Tjb/install/pyqtui:/home/glack/Documents/project/Tjb/install/position:/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaac) /usr/bin/cmake --install /home/glack/Documents/project/Tjb/build/tof
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof' for CMake module files
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof' for CMake config files
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('tof', 'cmake_prefix_path')
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glack/Documents/project/Tjb/install/tof/share/tof/hook/cmake_prefix_path.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glack/Documents/project/Tjb/install/tof/share/tof/hook/cmake_prefix_path.dsv'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glack/Documents/project/Tjb/install/tof/share/tof/hook/cmake_prefix_path.sh'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/lib'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/bin'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/lib/pkgconfig/tof.pc'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/lib/python3.10/site-packages'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/bin'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.sh'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.bash'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.zsh'
+[0.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glack/Documents/project/Tjb/install/tof/share/colcon-core/packages/tof)
+[0.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tof)
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof' for CMake module files
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof' for CMake config files
+[0.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('tof', 'cmake_prefix_path')
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glack/Documents/project/Tjb/install/tof/share/tof/hook/cmake_prefix_path.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glack/Documents/project/Tjb/install/tof/share/tof/hook/cmake_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glack/Documents/project/Tjb/install/tof/share/tof/hook/cmake_prefix_path.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/lib'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/bin'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/lib/pkgconfig/tof.pc'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/lib/python3.10/site-packages'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/glack/Documents/project/Tjb/install/tof/bin'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.dsv'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.bash'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/glack/Documents/project/Tjb/install/tof/share/tof/package.zsh'
+[0.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glack/Documents/project/Tjb/install/tof/share/colcon-core/packages/tof)
+[0.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.668s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.672s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.672s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.672s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.678s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glack/Documents/project/Tjb/install/local_setup.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/glack/Documents/project/Tjb/install/_local_setup_util_ps1.py'
+[0.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glack/Documents/project/Tjb/install/setup.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glack/Documents/project/Tjb/install/local_setup.sh'
+[0.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/glack/Documents/project/Tjb/install/_local_setup_util_sh.py'
+[0.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glack/Documents/project/Tjb/install/setup.sh'
+[0.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glack/Documents/project/Tjb/install/local_setup.bash'
+[0.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glack/Documents/project/Tjb/install/setup.bash'
+[0.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glack/Documents/project/Tjb/install/local_setup.zsh'
+[0.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glack/Documents/project/Tjb/install/setup.zsh'

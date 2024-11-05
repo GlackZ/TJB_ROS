@@ -1,0 +1,45 @@
+[0.480s] Invoking command in '/home/glack/Documents/project/Tjb/build/position': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/glack/Documents/project/Tjb/build/position/build
+[0.596s] running develop
+[0.596s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.596s]   warnings.warn(
+[0.655s] Removing /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position.egg-link (link to .)
+[0.668s] Invoked command in '/home/glack/Documents/project/Tjb/build/position' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/glack/Documents/project/Tjb/build/position/build
+[0.669s] Invoking command in '/home/glack/Documents/project/Tjb/src/position': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/position build --build-base /home/glack/Documents/project/Tjb/build/position/build install --record /home/glack/Documents/project/Tjb/build/position/install.log --single-version-externally-managed install_data --force
+[0.771s] running egg_info
+[0.771s] writing ../../build/position/position.egg-info/PKG-INFO
+[0.771s] writing dependency_links to ../../build/position/position.egg-info/dependency_links.txt
+[0.771s] writing entry points to ../../build/position/position.egg-info/entry_points.txt
+[0.771s] writing requirements to ../../build/position/position.egg-info/requires.txt
+[0.771s] writing top-level names to ../../build/position/position.egg-info/top_level.txt
+[0.772s] reading manifest file '../../build/position/position.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/position/position.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.773s] running build_py
+[0.773s] creating /home/glack/Documents/project/Tjb/build/position/build
+[0.773s] creating /home/glack/Documents/project/Tjb/build/position/build/lib
+[0.773s] creating /home/glack/Documents/project/Tjb/build/position/build/lib/position
+[0.773s] copying position/__init__.py -> /home/glack/Documents/project/Tjb/build/position/build/lib/position
+[0.773s] copying position/position_node.py -> /home/glack/Documents/project/Tjb/build/position/build/lib/position
+[0.773s] copying position/icp.py -> /home/glack/Documents/project/Tjb/build/position/build/lib/position
+[0.773s] copying position/trans_to_point.py -> /home/glack/Documents/project/Tjb/build/position/build/lib/position
+[0.773s] running install
+[0.773s] running install_lib
+[0.773s] creating /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position
+[0.773s] copying /home/glack/Documents/project/Tjb/build/position/build/lib/position/__init__.py -> /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position
+[0.773s] copying /home/glack/Documents/project/Tjb/build/position/build/lib/position/position_node.py -> /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position
+[0.774s] copying /home/glack/Documents/project/Tjb/build/position/build/lib/position/icp.py -> /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position
+[0.774s] copying /home/glack/Documents/project/Tjb/build/position/build/lib/position/trans_to_point.py -> /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position
+[0.774s] byte-compiling /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position/__init__.py to __init__.cpython-310.pyc
+[0.774s] byte-compiling /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position/position_node.py to position_node.cpython-310.pyc
+[0.774s] byte-compiling /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position/icp.py to icp.cpython-310.pyc
+[0.774s] byte-compiling /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position/trans_to_point.py to trans_to_point.cpython-310.pyc
+[0.775s] running install_data
+[0.775s] copying resource/position -> /home/glack/Documents/project/Tjb/install/position/share/ament_index/resource_index/packages
+[0.775s] copying package.xml -> /home/glack/Documents/project/Tjb/install/position/share/position
+[0.775s] copying launch/position_node_launch.py -> /home/glack/Documents/project/Tjb/install/position/share/position/launch
+[0.775s] running install_egg_info
+[0.776s] Copying ../../build/position/position.egg-info to /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position-0.0.0-py3.10.egg-info
+[0.776s] running install_scripts
+[0.786s] Installing position_node script to /home/glack/Documents/project/Tjb/install/position/lib/position
+[0.786s] writing list of installed files to '/home/glack/Documents/project/Tjb/build/position/install.log'
+[0.799s] Invoked command in '/home/glack/Documents/project/Tjb/src/position' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/position build --build-base /home/glack/Documents/project/Tjb/build/position/build install --record /home/glack/Documents/project/Tjb/build/position/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/frame_handle.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/serial.cc.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/main.cc.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/publisher.dir/src/cJSON.c.o[0m
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/lib/tof/publisher
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/__pycache__/tof_node_launch.cpython-310.pyc
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/tof_node_launch.py
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/package_run_dependencies/tof
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/parent_prefix_path/tof
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.sh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.dsv
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.bash
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.sh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.zsh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.dsv
+-- Symlinking: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.dsv
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/packages/tof
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig.cmake
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig-version.cmake
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.xml

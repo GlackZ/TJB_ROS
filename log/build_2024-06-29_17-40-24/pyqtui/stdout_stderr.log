@@ -1,0 +1,44 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui.egg-link (link to .)
+running egg_info
+writing ../../build/pyqtui/pyqtui.egg-info/PKG-INFO
+writing dependency_links to ../../build/pyqtui/pyqtui.egg-info/dependency_links.txt
+writing entry points to ../../build/pyqtui/pyqtui.egg-info/entry_points.txt
+writing requirements to ../../build/pyqtui/pyqtui.egg-info/requires.txt
+writing top-level names to ../../build/pyqtui/pyqtui.egg-info/top_level.txt
+reading manifest file '../../build/pyqtui/pyqtui.egg-info/SOURCES.txt'
+writing manifest file '../../build/pyqtui/pyqtui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/glack/Documents/project/Tjb/build/pyqtui/build
+creating /home/glack/Documents/project/Tjb/build/pyqtui/build/lib
+creating /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+copying pyqtui/test.py -> /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+copying pyqtui/__init__.py -> /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+copying pyqtui/mainwindow_ui.py -> /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+copying pyqtui/pyqtui_node.py -> /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+copying pyqtui/qt_main.py -> /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+running install
+running install_lib
+creating /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+copying /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui/test.py -> /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+copying /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui/__init__.py -> /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+copying /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui/mainwindow_ui.py -> /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+copying /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui/pyqtui_node.py -> /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+copying /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui/qt_main.py -> /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+byte-compiling /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui/test.py to test.cpython-310.pyc
+byte-compiling /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui/mainwindow_ui.py to mainwindow_ui.cpython-310.pyc
+byte-compiling /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui/pyqtui_node.py to pyqtui_node.cpython-310.pyc
+byte-compiling /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui/qt_main.py to qt_main.cpython-310.pyc
+running install_data
+copying resource/pyqtui -> /home/glack/Documents/project/Tjb/install/pyqtui/share/ament_index/resource_index/packages
+copying package.xml -> /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui
+copying launch/pyqtui_node_launch.py -> /home/glack/Documents/project/Tjb/install/pyqtui/share/pyqtui/launch
+running install_egg_info
+Copying ../../build/pyqtui/pyqtui.egg-info to /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pyqtui_node script to /home/glack/Documents/project/Tjb/install/pyqtui/lib/pyqtui
+writing list of installed files to '/home/glack/Documents/project/Tjb/build/pyqtui/install.log'

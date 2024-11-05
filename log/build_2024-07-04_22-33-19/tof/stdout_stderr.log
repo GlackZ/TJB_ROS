@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/serial.cc.o[0m
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:[m[K In member function ‘[01m[Kconst std::vector<unsigned char> Serial::readBytes() const[m[K’:
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:59:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_buf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |   uint8_t [01;35m[Kread_buf[m[K[16 * 1024];
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:[m[K In member function ‘[01m[Kvoid Serial::writeBytes(const std::vector<unsigned char>&) const[m[K’:
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:70:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   70 |   int [01;35m[Ka[m[K = *vec.cbegin();
+      |       [01;35m[K^[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:71:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 |   int [01;35m[Kb[m[K = *(vec.cbegin()+1);
+      |       [01;35m[K^[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:72:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   72 |   int [01;35m[Kc[m[K = *(vec.cbegin()+2);
+      |       [01;35m[K^[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/serial.cc:73:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   73 |   auto [01;35m[Kd[m[K = vec.cbegin().base();
+      |        [01;35m[K^[m[K
+[ 40%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/lib/tof/publisher
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/__pycache__/tof_node_launch.cpython-310.pyc
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/launch/tof_node_launch.py
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/package_run_dependencies/tof
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/parent_prefix_path/tof
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.sh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/environment/path.dsv
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.bash
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.sh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.zsh
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/local_setup.dsv
+-- Symlinking: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.dsv
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/ament_index/resource_index/packages/tof
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig.cmake
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/cmake/tofConfig-version.cmake
+-- Up-to-date symlink: /home/glack/Documents/project/Tjb/install/tof/share/tof/package.xml

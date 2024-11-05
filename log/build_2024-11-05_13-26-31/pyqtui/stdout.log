@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/pyqtui/pyqtui.egg-info/PKG-INFO
+writing dependency_links to ../../build/pyqtui/pyqtui.egg-info/dependency_links.txt
+writing entry points to ../../build/pyqtui/pyqtui.egg-info/entry_points.txt
+writing requirements to ../../build/pyqtui/pyqtui.egg-info/requires.txt
+writing top-level names to ../../build/pyqtui/pyqtui.egg-info/top_level.txt
+reading manifest file '../../build/pyqtui/pyqtui.egg-info/SOURCES.txt'
+writing manifest file '../../build/pyqtui/pyqtui.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pyqtui/mainwindow_ui.py -> /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui
+running install
+running install_lib
+copying /home/glack/Documents/project/Tjb/build/pyqtui/build/lib/pyqtui/mainwindow_ui.py -> /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui
+byte-compiling /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui/mainwindow_ui.py to mainwindow_ui.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pyqtui/pyqtui.egg-info to /home/glack/Documents/project/Tjb/install/pyqtui/lib/python3.10/site-packages/pyqtui-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pyqtui_node script to /home/glack/Documents/project/Tjb/install/pyqtui/lib/pyqtui
+writing list of installed files to '/home/glack/Documents/project/Tjb/build/pyqtui/install.log'

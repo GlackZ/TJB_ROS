@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/frame_handle.cc.o[0m
+In file included from [01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:8[m[K:
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_struct.h:36:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   36 |   uint8_t [01;35m[Kpayload[m[K[];
+      |           [01;35m[K^~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:[m[K In function ‘[01m[Kframe_t* handle_process(std::string)[m[K’:
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:97:1:[m[K [01;31m[Kerror: [m[Kjump to label ‘[01m[K__finished[m[K’
+   97 | [01;31m[K__finished[m[K:
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:53:10:[m[K [01;36m[Knote: [m[K  from here
+   53 |     goto [01;36m[K__finished[m[K;
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:64:8:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kunsigned int required_size[m[K’
+   64 |   auto [01;36m[Krequired_size[m[K = FRAME_HEAD_SIZE + frame_payload_len + FRAME_CHECKSUM_SIZE + FRAME_END_SIZE + 1;
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:97:1:[m[K [01;31m[Kerror: [m[Kjump to label ‘[01m[K__finished[m[K’
+   97 | [01;31m[K__finished[m[K:
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:39:12:[m[K [01;36m[Knote: [m[K  from here
+   39 |       goto [01;36m[K__finished[m[K;
+      |            [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:64:8:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kunsigned int required_size[m[K’
+   64 |   auto [01;36m[Krequired_size[m[K = FRAME_HEAD_SIZE + frame_payload_len + FRAME_CHECKSUM_SIZE + FRAME_END_SIZE + 1;
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:97:1:[m[K [01;31m[Kerror: [m[Kjump to label ‘[01m[K__finished[m[K’
+   97 | [01;31m[K__finished[m[K:
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:25:10:[m[K [01;36m[Knote: [m[K  from here
+   25 |     goto [01;36m[K__finished[m[K;
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/glack/Documents/project/Tjb/src/tof/src/frame_handle.cc:64:8:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kunsigned int required_size[m[K’
+   64 |   auto [01;36m[Krequired_size[m[K = FRAME_HEAD_SIZE + frame_payload_len + FRAME_CHECKSUM_SIZE + FRAME_END_SIZE + 1;
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:118：CMakeFiles/publisher.dir/src/frame_handle.cc.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

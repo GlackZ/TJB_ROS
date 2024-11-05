@@ -1,0 +1,21 @@
+[0.493s] Invoking command in '/home/glack/Documents/project/Tjb/src/position': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/position build --build-base /home/glack/Documents/project/Tjb/build/position/build install --record /home/glack/Documents/project/Tjb/build/position/install.log --single-version-externally-managed install_data
+[0.593s] running egg_info
+[0.594s] writing ../../build/position/position.egg-info/PKG-INFO
+[0.594s] writing dependency_links to ../../build/position/position.egg-info/dependency_links.txt
+[0.594s] writing entry points to ../../build/position/position.egg-info/entry_points.txt
+[0.595s] writing requirements to ../../build/position/position.egg-info/requires.txt
+[0.595s] writing top-level names to ../../build/position/position.egg-info/top_level.txt
+[0.596s] reading manifest file '../../build/position/position.egg-info/SOURCES.txt'
+[0.596s] writing manifest file '../../build/position/position.egg-info/SOURCES.txt'
+[0.596s] running build
+[0.596s] running build_py
+[0.597s] running install
+[0.597s] running install_lib
+[0.597s] running install_data
+[0.597s] running install_egg_info
+[0.597s] removing '/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position-0.0.0-py3.10.egg-info' (and everything under it)
+[0.598s] Copying ../../build/position/position.egg-info to /home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages/position-0.0.0-py3.10.egg-info
+[0.598s] running install_scripts
+[0.608s] Installing position_node script to /home/glack/Documents/project/Tjb/install/position/lib/position
+[0.608s] writing list of installed files to '/home/glack/Documents/project/Tjb/build/position/install.log'
+[0.626s] Invoked command in '/home/glack/Documents/project/Tjb/src/position' returned '0': CONDA_PROMPT_MODIFIER=(isaac) PYTHONPATH=/home/glack/Documents/project/Tjb/build/position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glack/Documents/project/Tjb/install/position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/position build --build-base /home/glack/Documents/project/Tjb/build/position/build install --record /home/glack/Documents/project/Tjb/build/position/install.log --single-version-externally-managed install_data
